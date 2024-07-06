@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  @apply bg-gray-900 text-white  scroll-smooth;
+}
+.list {
+  @apply text-gray-300 hover:text-white;
+}
+section {
+  @apply h-screen flex justify-center items-center;
+}
+.btn {
+  @apply bg-gradient-to-r from-blue-600  to-red-500 text-white md:text-lg px-5  py-1 rounded-full border-2 border-gray-600;
+}
+.txt-gradient {
+  @apply bg-gradient-to-r from-blue-600  to-red-500 inline-block text-transparent bg-clip-text;
+}
+
+.icon {
+  @apply text-gray-300 hover:text-white text-2xl;
+}
