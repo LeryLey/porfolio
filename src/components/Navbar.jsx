@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
     <BrowserRouter>
       <div className="w-full flex justify-center items-center py-2 fixed z-20">
-        <div>
+        <div >
           <button
             onClick={toggleMenu}
-            className="flex md:hidden float-right pr-2 text-3xl"
+            className="flex md:hidden absolute right-0 pr-2 text-3xl"
           >
             {menu ? (
               <ion-icon name="close-outline"></ion-icon>
